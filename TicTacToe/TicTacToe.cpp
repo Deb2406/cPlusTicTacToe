@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <string>
-
+#include <windows.h>
 /**
     @author Deb
     @version 0.1
@@ -11,6 +11,9 @@ int beckend();
 
 int main()
 {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251)
+        
     char NUMBERS_BOARD[][3] = {
             {'9', '8', '7'},
             {'6', '5', '4'},
