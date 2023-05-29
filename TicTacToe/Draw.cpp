@@ -1,11 +1,9 @@
 #include <iostream>
-#include <windows.h>
+
 /**
     Ýòîò ôàéë îòâå÷àåò çà ïðîðèñîâêó, èãðîâîãî ïîëÿ
 */
 char drawGameTable(char board[][3]) {
-SetConsoleCP(1251);
-SetConsoleOutputCP(1251);
     std::cout << "\n";
     int sizeBoard { 3 };
 
